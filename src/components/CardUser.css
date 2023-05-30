@@ -1,6 +1,39 @@
 .target-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
     margin: 0 auto;
-    border: red 1px solid;
+    background-color: olive;
+    border: aliceblue 5px solid;
     width: 150px;
-    height: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    /* padding arriba | izquierda y derecha | abajo */
+    padding: 1em 1em .5em;
+}
+
+#photo-user{
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+}
+
+.background-photo{
+    background-color: darkorange;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+button{
+    padding: .4em;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+button:hover{
+    transform: scale(1.1);
 }
